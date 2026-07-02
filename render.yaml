@@ -24,7 +24,3 @@ services:
         value: Asia/Kolkata
       - key: N8N_RUNNERS_ENABLED
         value: "true"
-    disk:
-      name: n8n-data
-      mountPath: /home/node/.n8n
-      sizeGB: 1
